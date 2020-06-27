@@ -1,0 +1,33 @@
+{
+  "name": "nodePractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mo_cha": "mocha test/simple.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/simple.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maskduxian/nodePractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maskduxian/nodePractice/issues"
+  },
+  "homepage": "https://github.com/Maskduxian/nodePractice#readme",
+  "devDependencies": {
+    "backpack-core": "^0.8.4",
+    "chai": "^4.2.0",
+    "eslint": "^7.3.1",
+    "eslint-loader": "^4.0.2",
+    "handlebars": "^4.5.3",
+    "istanbul": "^1.0.0-alpha.2",
+    "jsdom": "16.2.2",
+    "jsdom-global": "3.0.2",
+    "mocha": "^8.0.1"
+  }
+}
