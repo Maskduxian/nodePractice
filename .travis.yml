@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - 8
-  - 9
-  - 10
-  - 11
+  - '8'
+  - '9'
+  - '10'
+  - '11'
   brancher:
   only:
-  - dev
-  - master
+  - 'dev'
+  - 'master'
   script:
   - npm run cover
