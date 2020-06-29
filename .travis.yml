@@ -9,4 +9,4 @@ node_js:
   - 'dev'
   - 'master'
   script:
-  - npm run cover
+  - 'npm run cover'
