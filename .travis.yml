@@ -1,9 +1,10 @@
 language: node_js
+os: windows
 node_js:
-  - '8'
-  - '9'
   - '10'
   - '11'
+  install :
+  - 'npm install'
   brancher:
   only:
   - 'dev'
