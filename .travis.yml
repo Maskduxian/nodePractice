@@ -9,7 +9,7 @@ node_js:
   - '10'
 install:
   - 'npm install'
-  brancher:
+  branches:
   only:
   - 'dev'
   - 'master'
