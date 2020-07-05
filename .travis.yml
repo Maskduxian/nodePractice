@@ -6,7 +6,7 @@ git:
   before_install:
   - git submodule update --init --recursive
 node_js:
-  - 'v10.15.3'
+  - '10'
 install:
   - 'npm install'
   brancher:
