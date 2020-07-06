@@ -28,6 +28,8 @@
     "istanbul": "^1.0.0-alpha.2",
     "jsdom": "16.2.2",
     "jsdom-global": "3.0.2",
-    "mocha": "^8.0.1"
-  }
+    "mocha": "^8.0.1",
+    "travis": "^0.1.1"
+  },
+  "dependencies": {}
 }
