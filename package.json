@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "mo_cha": "mocha test/simple.js",
+    "test": "mocha test/simple.js",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/simple.js"
   },
   "repository": {
