@@ -7,5 +7,7 @@ brancher:
   only:
   - 'dev'
   - 'master'
+  install:
+  - npm install -g codecov
   script:
   - 'npm run cover'
