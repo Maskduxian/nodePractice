@@ -8,6 +8,9 @@ brancher:
   - 'dev'
   - 'master'
   install:
-  - npm install -g codecov
+  - 'npm install -g codecov'
   script:
   - 'npm run cover'
+  - 'codecov'
+after_success:
+  - 'bash <(curl -s https://codecov.io/bash)'
