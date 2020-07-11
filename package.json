@@ -6,7 +6,7 @@
   "scripts": {
     "tests": "echo \"Error: no test specified\" && exit 1",
     "test": "mocha test/simple.js",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter -R spec ./node_modules/.bin/codecov test/simple.js"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha && coverage  --reporter -R spec ./node_modules/.bin/codecov test/simple.js"
   },
   "repository": {
     "type": "git",
