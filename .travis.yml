@@ -11,8 +11,8 @@ install:
   - 'npm install'
   - 'npm install -g codecov'
  after_success:
-   - 'bash <(curl -s https://codecov.io/bash) -t token'
+   - 'bash <(curl -s https://codecov.io/bash)'
   script:
   - 'npm run cover'
   - 'codecov'
-  - 'npm run codecov'
+  - 'coverage'
