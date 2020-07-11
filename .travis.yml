@@ -10,9 +10,9 @@ brancher:
 install:
   - 'npm install'
   - 'npm install -g codecov'
+ after_success:
+   - 'bash <(curl -s https://codecov.io/bash) -t token'
   script:
   - 'npm run cover'
   - 'codecov'
- after_success:
-   - export CODECOV_TOKEN="token"
-   - 'bash <(curl -s https://codecov.io/bash)'
+  - 'npm run codecov'
