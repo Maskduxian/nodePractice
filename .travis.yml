@@ -13,6 +13,7 @@ install:
  after_success:
    - 'bash <(curl -s https://codecov.io/bash) -f coverage/coverage.json'
   script:
+  - 'coverage'
   - 'npm run cover'
   - 'codecov'
-  - 'coverage'
+
