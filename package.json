@@ -31,6 +31,7 @@
     "jsdom": "16.2.2",
     "jsdom-global": "3.0.2",
     "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
     "travis": "^0.1.1"
   },
   "dependencies": {}
