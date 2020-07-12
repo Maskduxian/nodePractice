@@ -3,7 +3,7 @@ language: node_js
 os: windows
 node_js:
   - '10'
-brancher:
+branches:
   only:
   - 'dev'
   - 'master'
