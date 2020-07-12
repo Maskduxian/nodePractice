@@ -10,6 +10,7 @@ brancher:
 install:
   - 'npm install'
   - 'npm install -g codecov'
+  - 'npm install -g coverage'
  after_success:
    - 'bash <(curl -s https://codecov.io/bash)'
   script:
