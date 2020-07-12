@@ -16,4 +16,3 @@ install:
   - 'npm run cover'
   - 'codecov'
   - 'coverage'
-  - 'nyc report --reporter=html'
