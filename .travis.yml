@@ -11,8 +11,9 @@ install:
   - 'npm install'
   - 'npm install -g codecov'
  after_success:
-   - 'bash <(curl -s https://codecov.io/bash)'
+   - 'bash <(curl -s https://codecov.io/bash) -f coverage/coverage.json'
   script:
   - 'npm run cover'
   - 'codecov'
+  - 'coverage'
   - 'nyc report --reporter=html'
