@@ -10,9 +10,11 @@ branches:
 install:
   - 'npm install'
   - 'npm install -g codecov'
+  - 'pip install codecov'
   script:
   - 'npm run cover'
-  - 'codecov'
+  # - 'codecov'
    after_success:
-   - 'bash <(curl -s https://codecov.io/bash)'
+    - 'codecov'
+  #  - 'bash <(curl -s https://codecov.io/bash)'
 
