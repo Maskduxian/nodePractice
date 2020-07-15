@@ -13,8 +13,7 @@ install:
   - 'pip install codecov'
   script:
   - 'npm run cover'
-  # - 'codecov'
    after_success:
     - 'codecov'
-  #  - 'bash <(curl -s https://codecov.io/bash)'
+
 
