@@ -7,7 +7,10 @@ branches:
   only:
   - 'dev'
   - 'master'
+install:
+  - 'npm install -g codecov'
   script:
   - 'npm run cover'
+  - 'codecov'
 
 
