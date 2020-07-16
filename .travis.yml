@@ -8,10 +8,9 @@ branches:
   - 'dev'
   - 'master'
 before_install:
-  - 'sudo apt-get update'
   - 'sudo apt-get -y install codecov@3.7.0'
 # install:
-#    - 'npm install codecov'
+#   - 'npm install codecov'
 script:
   - 'npm run cover'
   - 'codecov'
