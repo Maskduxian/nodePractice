@@ -8,10 +8,9 @@ branches:
   - 'dev'
   - 'master'
 install:
-  - 'npm install codecov'
+  - 'npm install codecov@3.7.0'
   script:
   - 'npm run cover'
-# after_success:
   - 'codecov'
 
 
