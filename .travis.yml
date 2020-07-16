@@ -7,13 +7,15 @@ branches:
   only:
   - 'dev'
   - 'master'
-install:
-  - 'pip install codecov'
+before_install:
+  - 'sudo apt-get update'
+  - 'sudo apt-get -y install codecov'
+# install:
+#   - 'npm install codecov'
   script:
   - 'npm run cover'
-after_success:
   - 'codecov'
 
-  # @3.7.0
+  # @3.7.0 after_success:
 
 
