@@ -8,10 +8,12 @@ branches:
   - 'dev'
   - 'master'
 install:
-  - 'npm install codecov@3.7.0'
+  - 'pip install codecov'
   script:
   - 'npm run cover'
 after_success:
   - 'codecov'
+
+  # @3.7.0
 
 
