@@ -14,7 +14,7 @@ before_install:
 #   - 'npm install codecov'
   script:
   - 'npm run cover'
-  - 'codecov'
+  # - 'codecov'
 
   # @3.7.0 after_success:
 
