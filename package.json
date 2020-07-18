@@ -31,5 +31,7 @@
     "mocha": "^8.0.1",
     "travis": "^0.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
 }
