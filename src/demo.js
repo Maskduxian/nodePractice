@@ -14,7 +14,7 @@ constructor (props) {
 }
 add = () =>{
     this.setState({
-        value:this.state.value ++
+        value:this.state.value + 1
     });
 };
 change = ev =>{

@@ -1,4 +1,8 @@
 build/
+screenshot/*.png
+mn/*.png
+mn/*.jpg
+mn/*.gif
 # Logs
 logs
 *.log

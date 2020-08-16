@@ -7,7 +7,20 @@
     "tests": "echo \"Error: no test specified\" && exit 1",
     "test": "mocha test/simple.js",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter test/simple.js",
-    "jest": "jest --notify --watchman=false --detectOpenHandles --forceExit test/demo.test.js"
+    "jest": "jest --notify --watchman=false --detectOpenHandles --forceExit test/demo.test.js --coverage",
+    "webdriver": "mocha test/webdriver.js"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
   },
   "repository": {
     "type": "git",
@@ -30,6 +43,7 @@
     "backpack-core": "^0.8.4",
     "bufferutil": "^4.0.1",
     "chai": "^4.2.0",
+    "chai-jest-snapshot": "^2.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.5.0",
@@ -50,7 +64,10 @@
   },
   "dependencies": {
     "benchmark": "^2.1.4",
+    "puppeteer": "^5.2.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "sinon": "^9.0.2"
   }
 }
