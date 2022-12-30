@@ -54,7 +54,7 @@
     "istanbul": "^1.0.0-alpha.2",
     "jest": "^26.1.0",
     "minimatch": "^3.0.2",
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "node-pre-gyp": "^0.15.0",
     "react-test-renderer": "^16.13.1",
     "travis": "^0.1.1",
